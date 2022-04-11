@@ -1,0 +1,21 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: NIST
+// Engineer: Kirti Kumar
+// 
+// Create Date: 11.04.2022 18:47:33
+// Design Name: Buffer
+// Module Name: buffer
+// Revision:
+// Revision 0.01 - File Created
+
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module buffer(
+    input a,
+    output b
+    );
+    
+    assign b=a;
+endmodule
